@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC808F681E2BD6A0000E55E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC808F671E2BD6A0000E55E5 /* main.cpp */; };
+		DC808F701E2BD6E8000E55E5 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = DC808F6F1E2BD6E8000E55E5 /* malloc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		DC808F641E2BD6A0000E55E5 /* C Supo 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Supo 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC808F671E2BD6A0000E55E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		DC808F6E1E2BD6E8000E55E5 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
+		DC808F6F1E2BD6E8000E55E5 /* malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		DC808F661E2BD6A0000E55E5 /* C Supo 3 */ = {
 			isa = PBXGroup;
 			children = (
+				DC808F6E1E2BD6E8000E55E5 /* Factorial.h */,
+				DC808F6F1E2BD6E8000E55E5 /* malloc.c */,
 				DC808F671E2BD6A0000E55E5 /* main.cpp */,
 			);
 			path = "C Supo 3";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC808F681E2BD6A0000E55E5 /* main.cpp in Sources */,
+				DC808F701E2BD6E8000E55E5 /* malloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
