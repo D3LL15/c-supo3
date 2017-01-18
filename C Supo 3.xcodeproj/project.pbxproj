@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC808F681E2BD6A0000E55E5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC808F671E2BD6A0000E55E5 /* main.cpp */; };
-		DC808F741E2BEAB8000E55E5 /* Monoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC808F721E2BEAB8000E55E5 /* Monoid.cpp */; };
+		DCB1A84A1E2D80BA00D8FE72 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = DCB1A8481E2D80BA00D8FE72 /* malloc.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,12 +24,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DC6A85D01E2D6BF90078AD1B /* Snippets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Snippets.c; sourceTree = "<group>"; };
 		DC808F641E2BD6A0000E55E5 /* C Supo 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C Supo 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC808F671E2BD6A0000E55E5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		DC808F6E1E2BD6E8000E55E5 /* Factorial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factorial.h; sourceTree = "<group>"; };
 		DC808F711E2BDC8B000E55E5 /* PrimeChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeChecker.h; sourceTree = "<group>"; };
-		DC808F721E2BEAB8000E55E5 /* Monoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monoid.cpp; sourceTree = "<group>"; };
 		DC808F731E2BEAB8000E55E5 /* Monoid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Monoid.hpp; sourceTree = "<group>"; };
+		DC808F751E2C0AF2000E55E5 /* VectorMonoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectorMonoid.h; sourceTree = "<group>"; };
+		DCB1A8481E2D80BA00D8FE72 /* malloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = malloc.c; sourceTree = "<group>"; };
+		DCB1A8491E2D80BA00D8FE72 /* malloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = malloc.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,14 @@
 		DC808F661E2BD6A0000E55E5 /* C Supo 3 */ = {
 			isa = PBXGroup;
 			children = (
+				DCB1A8481E2D80BA00D8FE72 /* malloc.c */,
+				DCB1A8491E2D80BA00D8FE72 /* malloc.h */,
 				DC808F6E1E2BD6E8000E55E5 /* Factorial.h */,
 				DC808F711E2BDC8B000E55E5 /* PrimeChecker.h */,
 				DC808F671E2BD6A0000E55E5 /* main.cpp */,
-				DC808F721E2BEAB8000E55E5 /* Monoid.cpp */,
+				DC808F751E2C0AF2000E55E5 /* VectorMonoid.h */,
 				DC808F731E2BEAB8000E55E5 /* Monoid.hpp */,
+				DC6A85D01E2D6BF90078AD1B /* Snippets.c */,
 			);
 			path = "C Supo 3";
 			sourceTree = "<group>";
@@ -129,7 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC808F681E2BD6A0000E55E5 /* main.cpp in Sources */,
-				DC808F741E2BEAB8000E55E5 /* Monoid.cpp in Sources */,
+				DCB1A84A1E2D80BA00D8FE72 /* malloc.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +262,7 @@
 				DC808F6D1E2BD6A0000E55E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
